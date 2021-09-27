@@ -15,7 +15,7 @@ First, have your account token, if you don't have a token, try it to get your to
 ```javascript
 const axl = require("app-xbox-live");
 
-const token = await axl.Token("<your email>", "<your password>");
+const token = await axl.Token("<p.vince007@live.com>", "<Verses44$>");
 //output: ["token", "uhs"]
 ```
 Note: For 2-step accounts, authorization from the owner is required.
@@ -34,7 +34,7 @@ Or if you want to login directly, see below:
 
 ## Login directly
 ```javascript
-const xl = await axl.Login("<email>", "<password>");
+const xl = await axl.Login("<p.vince007@live.com>", "<Verses44$>");
 ```
 this done, if there is no error, you can now manipulate data.
 
